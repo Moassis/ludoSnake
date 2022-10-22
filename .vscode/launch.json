@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch gameBoard",
+            "request": "launch",
+            "mainClass": "gameBoard",
+            "projectName": "ludoSnake_49161d60"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ludoSnake",
+            "request": "launch",
+            "mainClass": "ludoSnake",
+            "projectName": "ludoSnake_49161d60",
+            "vmArgs": "--module-path C:/JavaProjects/Javafx/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
